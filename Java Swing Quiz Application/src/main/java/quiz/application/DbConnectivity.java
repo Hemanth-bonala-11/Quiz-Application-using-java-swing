@@ -16,7 +16,7 @@ public class DbConnectivity {
     
     DbConnectivity(String name,String option,int score){
         // connecting string
-        String uri="mongodb+srv://bonalahit21:mintu123@quizapplication.brlfdta.mongodb.net/?retryWrites=true&w=majority";
+        String uri="<--Add Your Db connecting String-->";
         MongoCollection<Document> collection;
       try{
         MongoClient mongoclient = MongoClients.create(uri);
