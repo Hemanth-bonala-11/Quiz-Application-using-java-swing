@@ -29,7 +29,7 @@ public class DbConnectivity {
             collection =mongodb.getCollection("test");
         }
         LocalDateTime curr=LocalDateTime.now();
-        DateTimeFormatter dtf=DateTimeFormatter.ofPattern("yyyy/mm/dd HH:mm:ss");
+        DateTimeFormatter dtf=DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
         Document data=new Document("name",name);
         data.append("Topic",option);
         data.append("Score",score);
