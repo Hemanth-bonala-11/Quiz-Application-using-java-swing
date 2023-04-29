@@ -1,0 +1,8 @@
+quiz\application\Quiz.class
+quiz\application\Rules.class
+quiz\application\Data.class
+quiz\application\Score.class
+quiz\application\Child.class
+quiz\application\Login.class
+.netbeans_automatic_build
+quiz\application\ArrayOperations.class
